@@ -14,32 +14,20 @@ function animateNavnarOnScroll() {
   }
 }
 
-const videoWrappers = document.querySelectorAll(".our-work-video-wrapper");
 
-var videos = document.querySelectorAll("#videoTeaser");
-videos.forEach(video => {
-  video.addEventListener(
-    'play', 
-    function() { 
-      video.play();
-    },
-    false);
+var videos = document.querySelectorAll(".our-work-video-wrapper video");
 
-  video.onclick = function() {
+videos.forEach((video) => {
+  const wrap = video.parentElement;
+  wrap.onclick = function () {
     if (video.paused) {
       video.play();  
       video.classList.add("play");
+      wrap.classList.add("play");
     } else {
       video.pause();
       video.classList.remove("play");
+      wrap.classList.remove("play");
     }
-
-    return false;
-  };
+  }
 })
-
-videoWrappers.forEach(videoWrapper => {
-  videoWrapper.addEventListener("click", function() {
-    videoWrapper.classList.toggle("play");
-  });
-});

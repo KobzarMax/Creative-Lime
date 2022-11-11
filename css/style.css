@@ -207,14 +207,14 @@
     width: 283px;
     height: 360px;
 }
-.our-work-video-wrapper::after {
-    content: url('../images/play-video.svg');
+.our-work-video-wrapper .play-button {
     position: absolute;
     top: 50%;
     left: 50%;
     display: block;
+    cursor: pointer;
 }
-.our-work-video-wrapper.play::after {
+.our-work-video-wrapper.play .play-button {
     display: none;
 }
 
