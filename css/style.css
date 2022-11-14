@@ -606,7 +606,7 @@
     }
     .action {
         position: relative;
-        padding-bottom: 85%;
+        padding-bottom: 70%;
         padding-top: 50px;
         width: 238px;
         height: 324px;
@@ -653,7 +653,7 @@
     }
     .our-work-videos .action {
         width: 283px;
-        max-height: 330px;
+        max-height: 405px;
     }
     .types-title {
         font-size: 30px;
@@ -719,5 +719,16 @@
     }
     .main-action .action {
         padding-bottom: 80%;
+    }
+}
+
+@media (max-width:460px) {
+    .action {
+        position: relative;
+        padding-bottom: 100%;
+        padding-top: 40px;
+        width: 238px;
+        height: 324px;
+        overflow: hidden;
     }
 }
