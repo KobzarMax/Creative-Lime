@@ -85,7 +85,7 @@
 .action {
     position: relative;
     width: 283px;
-    height: 330px;
+    height: 405px;
 }
 .action video {
     border-radius: 27.867px;
@@ -205,7 +205,7 @@
 .our-work-video-wrapper {
     position: relative;
     width: 283px;
-    height: 360px;
+    height: 405px;
 }
 .our-work-video-wrapper .play-button {
     position: absolute;
