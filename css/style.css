@@ -85,7 +85,7 @@
 .action {
     position: relative;
     width: 283px;
-    height: 330px;
+    height: 405px;
 }
 .action video {
     border-radius: 27.867px;
@@ -189,7 +189,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 55.69px;
+    gap: 100.69px;
 }
 
 .our-work-wrapper .button-link {
@@ -204,7 +204,7 @@
 }
 .our-work-video-wrapper {
     position: relative;
-    width: 283px;
+    width: 250px;
     height: 405px;
 }
 .our-work-video-wrapper .play-button {
@@ -466,7 +466,7 @@
     }
     .action {
         position: relative; 
-        padding-bottom: 35.25%; 
+        padding-bottom: 50.25%; 
         padding-top: 30px;
         width: 100%;
         height: 0;
