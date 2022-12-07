@@ -204,8 +204,8 @@
 }
 .our-work-video-wrapper {
     position: relative;
-    width: 276px;
-    height: 408px;
+    width: 260px;
+    height: 405px;
 }
 .our-work-video-wrapper .play-button {
     position: absolute;
@@ -484,7 +484,7 @@
         left: 0;
     }
     .our-work-videos .action {
-        width: 33%;
+        width: 31%;
     }
     .our-work-videos:first-child {
         display: none;
@@ -532,7 +532,7 @@
         max-width: 572px;
     }
     .our-work-videos .action {
-        width: 45%;
+        width: 40%;
     }
     .our-work-videos {
         gap: 20.69px;
@@ -656,7 +656,7 @@
         font-size: 38px;
     }
     .our-work-videos .action {
-        width: 283px;
+        width: 260px;
         max-height: 405px;
     }
     .types-title {
